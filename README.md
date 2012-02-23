@@ -33,19 +33,22 @@ Quick Start
 
 2) open HEW and create a new project workspace of RX63N
 
-3) under Debug->Debug Sessions, select the J-Link session as the Current Session<br>
+3) Copy all files (if not already) into the path:<br>
+* C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW<br>
 
-4) Plug kit to your PC<br>
+4) Open workspace "uCOSIII_CLOUD_RX63N.hws"<br>
 
-5) When the RDK is connected, a new option under the File menu will appear:<br>
-   “Download a New Module”.  Select that item and choose the option “S-Record”<br>
-   for File format. For Filename, use the Browse… button to select the .mot<br>
-   pre-built binary image you want to download. <br>
+5) Compile and download -> check https://renesas.exosite.com to see your data
+in the cloud!<br>
+* HINT: Your RDK must be connected to the Internet via the RJ-45 ethernet jack<br>
+* HINT: If your network does not support DHCP, you will need to set static 
+        values<br>
+
 
 ========================================
 Release Info
 ========================================
 ----------------------------------------
-Release 2012-02-22
+Release 2012-02-23
 ----------------------------------------
 --) initial cloud-enabled version<br>
