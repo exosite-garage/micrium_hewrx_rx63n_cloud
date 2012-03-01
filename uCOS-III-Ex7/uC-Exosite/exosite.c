@@ -28,7 +28,7 @@
 *                                            LOCAL DEFINES
 *********************************************************************************************************
 */
-#define RX_SIZE     50 // must be at least 12 in order to read HTTP status header
+#define RX_SIZE     100 // must be at least 12 in order to read HTTP status header
 #define VEN_SIZE    16
 #define OSN_SIZE    30
 #define OSV_SIZE    16

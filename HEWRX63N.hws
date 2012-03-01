@@ -3,12 +3,12 @@
 [DATABASE_VERSION]
 "11.0" 
 [WORKSPACE_DETAILS]
-"uCOSIII_CLOUD_RX63N" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW\uCOSIII_CLOUD_RX63N" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW\uCOSIII_CLOUD_RX63N\uCOSIII_CLOUD_RX63N.hws" "RX" "Renesas RX Standard" 
+"HEWRX63N" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\HEWRX63N.hws" "RX" "Renesas RX Standard" 
 [SHARED_WORKSPACE_CONTROL_STATUS]
 "" "" "" 
 "" "" "" 
 [PROJECTS]
-"uCOSIII_CLOUD_RX63N_Ex7" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW\uCOSIII_CLOUD_RX63N\uCOSIII_CLOUD_RX63N_Ex7" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW\uCOSIII_CLOUD_RX63N\uCOSIII_CLOUD_RX63N_Ex7\uCOSIII_CLOUD_RX63N_Ex7.hwp" 0 
+"uCOS-III-Ex7" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uCOS-III-Ex7.hwp" 0 
 [INFORMATION]
 "No workspace information available" 
 [SCRAP]

@@ -1,0 +1,364 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.8" 
+[PROJECT_DETAILS]
+"uCOS-III-Ex7" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uCOS-III-Ex7.hwp" "RX" "Renesas RX Standard" "Application" "RX600" "RX63N" 
+[INFORMATION]
+"No project information available" 
+[TOOL_CHAIN]
+"Renesas RX Standard Toolchain" "1.2.0.0" 
+[CONFIGURATIONS]
+"Debug" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Debug" 
+"Release" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Release" 
+[BUILD_PHASES]
+"Renesas OptLinker" 1 
+"Renesas RX Assembler" 1 
+"Renesas RX C/C++ Compiler" 1 
+"Renesas RX C/C++ Library Generator" 1 
+"Renesas RX Configurator" 1 
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"Absolute file" "ABS" 
+"Assembly include file" "INC" 
+"Assembly list file" "LST" 
+"Assembly source file" "S" 
+"Assembly source file" "SRC" 
+"Binary file" "BIN" 
+"C header file" "H" 
+"C source file" "C" 
+"C++ header file" "HPP" 
+"C++ source file" "CC" 
+"C++ source file" "CP" 
+"C++ source file" "CPP" 
+"CPU information file" "CPU" 
+"Calling information file" "CAL" 
+"Configuration file" "CFG" 
+"Debug information file" "DBG" 
+"Hex file" "HEX" 
+"Library file" "LIB" 
+"Library information file" "LBP" 
+"Linkage map file" "MAP" 
+"Linkage symbol file" "FSY" 
+"Object file" "OBJ" 
+"Optimize map file" "bls" 
+"Preprocessed C source file" "P" 
+"Preprocessed C++ source file" "PP" 
+"Relocatable file" "REL" 
+"Rts information file" "RTS" 
+"S-Record file" "MOT" 
+"Stack information file" "SNI" 
+"TD include object file" "RTI" 
+[FILE_GROUPS]
+"Absolute file" "BIN" "NONE" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Binary file" "BIN" "NONE" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"C++ header file" "TEXT" "EDITOR" "" 
+"C++ source file" "TEXT" "EDITOR" "" 
+"CPU information file" "BIN" "NONE" "" 
+"Calling information file" "BIN" "NONE" "" 
+"Configuration file" "TEXT" "EDITOR" "" 
+"Debug information file" "BIN" "NONE" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"Library file" "BIN" "NONE" "" 
+"Library information file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"Linkage symbol file" "TEXT" "EDITOR" "" 
+"Object file" "BIN" "NONE" "" 
+"Optimize map file" "BIN" "NONE" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"Preprocessed C++ source file" "TEXT" "EDITOR" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"Rts information file" "BIN" "NONE" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+"Stack information file" "BIN" "NONE" "" 
+"TD include object file" "BIN" "NONE" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Renesas OptLinker" 
+"Renesas RX Assembler" 
+"Renesas RX C/C++ Compiler" 
+"Renesas RX C/C++ Library Generator" 
+"Renesas RX Configurator" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[CUSTOM_PHASE_OUTPUT_SYNTAX]
+[BUILD_ORDER]
+"Renesas RX C/C++ Library Generator" 1 
+"Renesas RX C/C++ Compiler" 1 
+"Renesas RX Assembler" 1 
+"Renesas OptLinker" 1 
+"Renesas RX Configurator" 0 
+[BUILD_PHASE_DETAILS]
+"Renesas OptLinker" "Object file|Library file|Relocatable file" 0 
+"Renesas RX Assembler" "Assembly source file|Linkage symbol file" 1 
+"Renesas RX C/C++ Compiler" "C source file|C++ source file" 1 
+"Renesas RX C/C++ Library Generator" "" 0 
+"Renesas RX Configurator" "Configuration file" 0 
+[BUILD_FILE_ORDER_Assembly source file]
+"Renesas RX Assembler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Renesas RX C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_C++ source file]
+"Renesas RX C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_Linkage symbol file]
+"Renesas RX Assembler" 1 
+[SCRAP]
+"Project Generator Setup File" "" 
+[MAPPINGS]
+"Assembly source file" "Renesas RX Assembler" "Renesas RX C/C++ Compiler" 
+"Library file" "Renesas OptLinker" "Renesas RX C/C++ Library Generator" 
+"Object file" "Renesas OptLinker" "Renesas RX Assembler" 
+"Object file" "Renesas OptLinker" "Renesas RX C/C++ Compiler" 
+[PROJECT_FILES]
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_bsp.c" "User" "BSP|TCPIP-V2" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_bsp.h" "User" "BSP|TCPIP-V2" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_bsp_a.s" "User" "BSP|TCPIP-V2" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_phy_dp83640.c" "User" "BSP|TCPIP-V2" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_phy_dp83640.h" "User" "BSP|TCPIP-V2" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp.c" "User" "BSP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp.h" "User" "BSP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp_tick_a.s" "User" "BSP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp_tick_c.c" "User" "BSP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\uCOS-III\bsp_os.c" "User" "BSP|uCOS-III" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\uCOS-III\bsp_os.h" "User" "BSP|uCOS-III" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\dbsct.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\glyph_api.h" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\glyphlib_v2.lib" "User" "Library file" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\hwsetup.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lcd.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lcd.h" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lowlvl.src" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lowsrc.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\resetprg.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\sbrk.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\stacksct.h" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\switches.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\switches.h" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\types.h" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\vecttbl.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\yrdkrx62n_rspi_api.c" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\yrdkrx62n_rspi_api.h" "User" "APP|Init" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app.c" "User" "APP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app_cloud.c" "User" "APP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app_tcpip.c" "User" "APP|TCP-IP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app_tcpip.h" "User" "APP|TCP-IP" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\exosite.c" "User" "uC-EXOSITE" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\r_flash_api_rx600.c" "User" "uC-EXOSITE" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\r_flash_api_rx600.h" "User" "uC-EXOSITE" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\r_flash_api_rx600_config.h" "User" "uC-EXOSITE" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\r_flash_api_rx600_private.h" "User" "uC-EXOSITE" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\rdk_meta.c" "User" "uC-EXOSITE" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\rdk_meta.h" "User" "uC-EXOSITE" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\app_cfg.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\cpu_cfg.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\includes.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\lib_cfg.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\net_cfg.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\net_dev_cfg.c" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\net_dev_cfg.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\os_app_hooks.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\os_cfg.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\os_cfg_app.h" "User" "APP|lib" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\uCOSIII_TCPIP_DHCP.lib" "User" "Library file" 2 
+"C:\Micrium\Software\uC-CPU\RX63N\HEW\cpu.h" "User" "uC-CPU|RX63N" 2 
+"C:\Micrium\Software\uC-CPU\cpu_core.h" "User" "uC-CPU" 2 
+"C:\Micrium\Software\uC-CPU\cpu_def.h" "User" "uC-CPU" 2 
+"C:\Micrium\Software\uC-DHCPc-V2\Source\dhcp-c.h" "User" "uC-DHCPc|Source" 2 
+"C:\Micrium\Software\uC-LIB\lib_ascii.h" "User" "uC-LIB" 2 
+"C:\Micrium\Software\uC-LIB\lib_def.h" "User" "uC-LIB" 2 
+"C:\Micrium\Software\uC-LIB\lib_math.h" "User" "uC-LIB" 2 
+"C:\Micrium\Software\uC-LIB\lib_mem.h" "User" "uC-LIB" 2 
+"C:\Micrium\Software\uC-LIB\lib_str.h" "User" "uC-LIB" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Dev\Ether\RX-EtherC\RX63N\net_dev_rx_etherc_reg.h" "User" "uC-TCPIP|Dev|Ether|RX-EtherC|RX63N" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Dev\Ether\RX-EtherC\net_dev_rx_etherc.h" "User" "uC-TCPIP|Dev|Ether|RX-EtherC" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\IF\net_if.h" "User" "uC-TCPIP|IF" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\IF\net_if_ether.h" "User" "uC-TCPIP|IF" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\IF\net_if_loopback.h" "User" "uC-TCPIP|IF" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\OS\uCOS-III\net_os.h" "User" "uC-TCPIP|OS|uCOS-III" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_app.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_arp.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_ascii.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_bsd.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_buf.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_cfg_net.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_conn.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_ctr.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_dbg.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_def.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_err.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_icmp.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_igmp.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_ip.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_mgr.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_sock.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_stat.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_tcp.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_tmr.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_type.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_udp.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uC-TCPIP-V2\Source\net_util.h" "User" "uC-TCPIP|Source" 2 
+"C:\Micrium\Software\uCOS-III\Ports\Renesas\RX600\HEW\os_cpu.h" "User" "uCOSIII|Port|Renesas|RX600|HEW" 2 
+"C:\Micrium\Software\uCOS-III\Ports\Renesas\RX600\HEW\os_cpu_a.inc" "User" "uCOSIII|Port|Renesas|RX600|HEW" 2 
+"C:\Micrium\Software\uCOS-III\Ports\Renesas\RX600\HEW\os_cpu_a.src" "User" "uCOSIII|Port|Renesas|RX600|HEW" 2 
+"C:\Micrium\Software\uCOS-III\Source\os.h" "User" "uCOSIII|Source" 2 
+"C:\Micrium\Software\uCOS-III\Source\os_type.h" "User" "uCOSIII|Source" 2 
+[FOLDER]
+"APP" "APP" 
+"APP|Init" "" 
+"APP|TCP-IP" "" 
+"APP|lib" "" 
+"BSP" "BSP" 
+"BSP|TCPIP-V2" "" 
+"BSP|uCOS-III" "" 
+"Library file" "Library file" 
+"uC-CPU" "uC-CPU" 
+"uC-CPU|RX63N" "" 
+"uC-DHCPc" "uC-DHCPc" 
+"uC-DHCPc|Source" "" 
+"uC-EXOSITE" "uC-EXOSITE" 
+"uC-LIB" "uC-LIB" 
+"uC-TCPIP" "uC-TCPIP" 
+"uC-TCPIP|Dev" "" 
+"uC-TCPIP|Dev|Ether" "" 
+"uC-TCPIP|Dev|Ether|RX-EtherC" "" 
+"uC-TCPIP|Dev|Ether|RX-EtherC|RX63N" "" 
+"uC-TCPIP|IF" "" 
+"uC-TCPIP|OS" "" 
+"uC-TCPIP|OS|uCOS-III" "" 
+"uC-TCPIP|Source" "" 
+"uCOSIII" "uCOSIII" 
+"uCOSIII|Port" "" 
+"uCOSIII|Port|Renesas" "" 
+"uCOSIII|Port|Renesas|RX600" "" 
+"uCOSIII|Port|Renesas|RX600|HEW" "" 
+"uCOSIII|Source" "" 
+[GENERAL_DATA_PROJECT]
+"USE_CUSTOM_LINKAGE_ORDER" "0" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\DefaultSession.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[OPTIONS_Debug_Renesas OptLinker]
+"Single Shot" "088cf8d0303fcc10" 5 
+[OPTIONS_Debug_Renesas RX Assembler]
+"Assembly source file" "0a5a099a97abcc10" 4 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_bsp_a.s" "0a5a099a97abcc10" 4 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp_tick_a.s" "0a5a099a97abcc10" 4 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lowlvl.src" "0a5a099a97abcc10" 4 
+"C:\Micrium\Software\uCOS-III\Ports\Renesas\RX600\HEW\os_cpu_a.src" "02ed932fc32fcc10" 4 
+"Linkage symbol file" "0a5a099a97abcc10" 4 
+[OPTIONS_Debug_Renesas RX C/C++ Compiler]
+"C source file" "0d862253f97fcc10" 2 
+"C++ source file" "0835bb44de2fcc10" 3 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_bsp.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_phy_dp83640.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp_tick_c.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\uCOS-III\bsp_os.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\dbsct.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\hwsetup.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lcd.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lowsrc.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\resetprg.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\sbrk.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\switches.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\vecttbl.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\yrdkrx62n_rspi_api.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app_cloud.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app_tcpip.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\exosite.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\r_flash_api_rx600.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\rdk_meta.c" "0d862253f97fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\net_dev_cfg.c" "0d862253f97fcc10" 2 
+[OPTIONS_Debug_Renesas RX C/C++ Library Generator]
+"Single Shot" "0a5a099a97abcc10" 1 
+[OPTIONS_Debug_Renesas RX Configurator]
+"Single Shot" "0b94989f203fcc10" 6 
+[OPTIONS_Debug]
+"" 0 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 6 
+"[V|VERSION|1] [B|SJIS|1] [S|INCLUDE|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Ports\Renesas\RX600\HEW^"] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16] [B|SKIPDEPENDENCY|1]
+" 4 
+"[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|INCLUDE|^"$(PROJDIR)^"|^"$(PROJDIR)\Init^"|^"$(PROJDIR)\init\glyph^"|^"$(PROJDIR)\..\..\BSP^"|^"$(PROJDIR)\..\uCOS-III-Lib^"|^"$(PROJDIR)\..\..\BSP\uCOS-III^"|^"$(PROJDIR)\..\..\BSP\TCPIP-V2^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU\RX63N\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uC-LIB^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Ports\Renesas\RX600\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\OS\uCOS-III^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC\RX63N^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\IF^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\OS\uCOS-III^"] [S|DEFINE|PLATFORM_RDK63N=1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [S|OPTIMIZE|0] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16] [B|SKIPDEPENDENCY|1]
+" 3 
+"[V|VERSION|1] [S|LANG|C] [B|SJIS|1] [S|INCLUDE|^"$(PROJDIR)^"|^"$(PROJDIR)\Init^"|^"$(PROJDIR)\init\glyph^"|^"$(PROJDIR)\..\..\BSP^"|^"$(PROJDIR)\..\uCOS-III-Lib^"|^"$(PROJDIR)\..\..\BSP\uCOS-III^"|^"$(PROJDIR)\..\..\BSP\TCPIP-V2^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU\RX63N\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uC-LIB^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Ports\Renesas\RX600\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\OS\uCOS-III^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC\RX63N^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\IF^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\OS\uCOS-III^"] [S|DEFINE|PLATFORM_RDK63N=1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [S|OPTIMIZE|0] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16] [B|SKIPDEPENDENCY|1]
+" 2 
+"[V|VERSION|1] [S|MODE|BUILD/CHANGED] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|NEW|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [S|OPTIMIZE|0] [B|SIZE|1] [I|INLINE|100] [I|LOOP|2] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16] [B|SKIPDEPENDENCY|1]
+" 1 
+"[V|VERSION|6] [S|PRELINK|SKIP] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|1] [S|ROM|(D,R)|(D_1,R_1)|(D_2,R_2)] [S|CRC|NONE|DEFAULT|00000000] [S|VECT|_UndefinedInterruptSource] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|SI,SU,B_1,R_1,B_2,R_2,B,R(00)|C_1,C_2,C,C$*,L*,D*,P,W*(0FFF80000)|FIXEDVECT(0FFFFFF80)] [S|MEMORY|HIGH] [B|SKIPDEPENDENCY|1]
+" 5 
+[EXCLUDED_FILES_Debug]
+[LINKAGE_ORDER_Debug]
+[GENERAL_DATA_CONFIGURATION_Debug]
+[OPTIONS_Release_Renesas OptLinker]
+"Single Shot" "088cf8d0303fcc10" 6 
+[OPTIONS_Release_Renesas RX Assembler]
+"Assembly source file" "039fcc3be97fcc10" 5 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_bsp_a.s" "039fcc3be97fcc10" 5 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp_tick_a.s" "039fcc3be97fcc10" 5 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lowlvl.src" "039fcc3be97fcc10" 5 
+"C:\Micrium\Software\uCOS-III\Ports\Renesas\RX600\HEW\os_cpu_a.src" "039fcc3be97fcc10" 5 
+"Linkage symbol file" "0498b5eedc0fcc10" 4 
+[OPTIONS_Release_Renesas RX C/C++ Compiler]
+"C source file" "0eae87e4de2fcc10" 2 
+"C++ source file" "0eae87e4de2fcc10" 3 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_bsp.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\TCPIP-V2\net_phy_dp83640.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\bsp_tick_c.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\BSP\uCOS-III\bsp_os.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\dbsct.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\hwsetup.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lcd.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\lowsrc.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\resetprg.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\sbrk.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\switches.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\vecttbl.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\Init\yrdkrx62n_rspi_api.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app_cloud.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\app_tcpip.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\exosite.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\r_flash_api_rx600.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Ex7\uC-Exosite\rdk_meta.c" "0eae87e4de2fcc10" 2 
+"C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEWRX63N\uCOS-III-Lib\net_dev_cfg.c" "0eae87e4de2fcc10" 2 
+[OPTIONS_Release_Renesas RX C/C++ Library Generator]
+"Single Shot" "038c04f60d9acc10" 1 
+[OPTIONS_Release_Renesas RX Configurator]
+"Single Shot" "0b94989f203fcc10" 7 
+[OPTIONS_Release]
+"" 0 
+"[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|0] [B|MATH|0] [B|MATHF|0] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|1] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 7 
+"[V|VERSION|1] [B|SJIS|1] [S|INCLUDE|^"$(PROJDIR)\..\..\..\..\..\..\uCOS-III\Ports\Renesas\RX600\HEW^"] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 4 
+"[V|VERSION|1] [B|SJIS|1] [S|INCLUDE|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Ports\Renesas\RX600\HEW^"] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 5 
+"[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|INCLUDE|^"$(PROJDIR)^"|^"$(PROJDIR)\Init^"|^"$(PROJDIR)\init\glyph^"|^"$(PROJDIR)\..\..\BSP^"|^"$(PROJDIR)\..\uCOS-III-Lib^"|^"$(PROJDIR)\..\..\BSP\TCPIP-V2^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU\RX63N\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uC-LIB^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Ports\Renesas\RX600\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\OS\uCOS-III^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC\RX63N^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\IF^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\OS\uCOS-III^"] [S|DEFINE|PLATFORM_RDK63N=1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|OPTIMIZE|0] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 3 
+"[V|VERSION|1] [S|LANG|C] [B|SJIS|1] [S|INCLUDE|^"$(PROJDIR)^"|^"$(PROJDIR)\Init^"|^"$(PROJDIR)\init\glyph^"|^"$(PROJDIR)\..\..\BSP^"|^"$(PROJDIR)\..\uCOS-III-Lib^"|^"$(PROJDIR)\..\..\BSP\TCPIP-V2^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU^"|^"$(PROJDIR)\..\..\..\..\..\uC-CPU\RX63N\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uC-LIB^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Ports\Renesas\RX600\HEW^"|^"$(PROJDIR)\..\..\..\..\..\uCOS-III\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\OS\uCOS-III^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC\RX63N^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\Dev\Ether\RX-EtherC^"|^"$(PROJDIR)\..\..\..\..\..\uC-TCPIP-V2\IF^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\Source^"|^"$(PROJDIR)\..\..\..\..\..\uC-DHCPc-V2\OS\uCOS-III^"] [S|DEFINE|PLATFORM_RDK63N=1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|OPTIMIZE|0] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 2 
+"[V|VERSION|6] [S|PRELINK|SKIP] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|0] [S|ROM|(D,R)|(D_1,R_1)|(D_2,R_2)] [S|CRC|NONE|DEFAULT|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|SI,SU,B_1,R_1,B_2,R_2,B,R(00)|C_1,C_2,C,C$*,L*,D*,P,W*(0FFF80000)|FIXEDVECT(0FFFFFF80)] [S|MEMORY|HIGH]
+" 6 
+[EXCLUDED_FILES_Release]
+[LINKAGE_ORDER_Release]
+[GENERAL_DATA_CONFIGURATION_Release]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[END]

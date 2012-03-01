@@ -160,14 +160,12 @@ static void CloudData_Task (void *p_arg)
     // OS Ver  = "3.01.2" <- MAX Length = 8
     // Use network interface '1' MAC address
     cloud_available = Exosite_Init("renesas", "Micrium-Ex7", "3.01.2", (NET_IF_NBR)1);
-
-    Str_Copy(showMAC, "MAC: ");
-	lcd_display(LCD_LINE5, "           ");
-	lcd_display(LCD_LINE6, "MAC Address");
 	
-    if (Exosite_GetMAC(&showMAC[0]) && !DisableCloudStatus)
+	lcd_display(LCD_LINE7, "            ");	
+    lcd_display(LCD_LINE8, "            ");	
+	if (Exosite_GetMAC(&showMAC[0]) && !DisableCloudStatus)
     {
-        lcd_display(LCD_LINE7,(uint8_t *) showMAC);
+        lcd_display(LCD_LINE6,(uint8_t *) showMAC);
     }
 	
     OSTimeDlyHMSM((CPU_INT16U) 0u,
@@ -176,10 +174,9 @@ static void CloudData_Task (void *p_arg)
                   (CPU_INT32U) 0u,
                   (OS_OPT    ) OS_OPT_TIME_HMSM_NON_STRICT,
                   (OS_ERR   *)&err);
-				  
-	lcd_display(LCD_LINE5, "Cloud Status");
-	lcd_display(LCD_LINE6, "            ");
-	lcd_display(LCD_LINE7, "            ");
+
+	lcd_display(LCD_LINE6, "            ");				  
+	lcd_display(LCD_LINE7, "Cloud Status");
 
     while (DEF_TRUE)
     {
@@ -221,7 +218,7 @@ static void CloudData_Task (void *p_arg)
                 }
             }
 
-            if (1 == Exosite_Read("led_ctrl", &ledctrl, 1))
+            if ((CPU_SIZE_T)1 == Exosite_Read("led_ctrl", &ledctrl, 1))
             {
                 UI_Update(MSG_CONNECTED);
 				ErrorCount = 0;
@@ -247,8 +244,6 @@ static void CloudData_Task (void *p_arg)
                           (CPU_INT32U) 0u,
                           (OS_OPT    ) OS_OPT_TIME_HMSM_NON_STRICT,
                           (OS_ERR   *)&err);
-
-           
         }
     }
 }
@@ -274,7 +269,7 @@ static CPU_CHAR display_status = 0;
 
     display_status = 1;
     if (display_status) {
-        lcd_display(LCD_LINE6, (uint8_t *)msg_status[MSG_BLANK]);
-        lcd_display(LCD_LINE6, (uint8_t *)msg_status[message]);
+        lcd_display(LCD_LINE8, (uint8_t *)msg_status[MSG_BLANK]);
+        lcd_display(LCD_LINE8, (uint8_t *)msg_status[message]);
     }
 }

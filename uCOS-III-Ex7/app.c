@@ -83,10 +83,10 @@ int  main (void)
     lcd_display(LCD_LINE2, " YRDKRX63N  ");
 	lcd_display(LCD_LINE3, " uC/OS-III  ");
 	lcd_display(LCD_LINE4, "            ");
-    lcd_display(LCD_LINE5, "  EXOSITE   ");
-	lcd_display(LCD_LINE6, "INITIALIZING");
-	lcd_display(LCD_LINE7, "            ");
-
+	lcd_display(LCD_LINE5, "            ");
+	lcd_display(LCD_LINE6, "            ");		
+    lcd_display(LCD_LINE7, "  EXOSITE   ");
+	lcd_display(LCD_LINE8, "INITIALIZING");
 
     CPU_IntDis();                                               /* Disable all interrupts.                              */
 

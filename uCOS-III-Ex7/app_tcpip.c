@@ -336,6 +336,11 @@ static  void  App_TCPIP_Init_DHCPc (NET_IF_NBR  if_nbr)
     CPU_CHAR          addr_ip_str[NET_ASCII_LEN_MAX_ADDR_IP];
     NET_ERR           net_err;
     OS_ERR            os_err;
+	
+	CPU_CHAR          *temp;
+	CPU_SIZE_T        len;
+	CPU_INT08U        Xoffset; 
+	CPU_CHAR          str_ip[18];
 
 
                                                                                 /* --------- INIT DHCP CLIENT --------- */
@@ -433,8 +438,6 @@ static  void  App_TCPIP_Init_DHCPc (NET_IF_NBR  if_nbr)
 
         APP_TRACE_INFO(("  IF #%2d   DHCP address = %s\n\r", if_nbr, &addr_ip_str[0]));
 		
-		lcd_display(LCD_LINE8, (void *)&addr_ip_str[0]);
-
         printf("  IF #%2d   DHCP address = %s\n\r", if_nbr, &addr_ip_str[0]);
 
                                                                                 /* ---- GET IF's DHCPc OPTs/PARAMs ---- */
@@ -444,6 +447,7 @@ static  void  App_TCPIP_Init_DHCPc (NET_IF_NBR  if_nbr)
                         (CPU_INT08U   *)&opt_buf[0],
                         (CPU_INT16U   *)&opt_buf_len,
                         (DHCPc_ERR    *)&dhcp_err);
+ 
         if (dhcp_err == DHCPc_ERR_NONE) {
             if (opt_buf_len >= sizeof(addr_ip)) {
                 Mem_Copy((void     *)&addr_ip,
@@ -455,6 +459,30 @@ static  void  App_TCPIP_Init_DHCPc (NET_IF_NBR  if_nbr)
                 }
             }
         }
+		
+		len =Str_Len(&addr_ip_str[0]);
+		
+		if ( len < 12)		
+		    lcd_display(LCD_LINE4, (void *)&addr_ip_str[0]);
+		else {
+			Str_Copy(&str_ip[0],&addr_ip_str[0]);
+			
+			temp = Str_Char_Last(&str_ip[0],'.');
+			
+			if((len - (temp - &str_ip[0]))> 2) 
+			    Xoffset = 4;
+			else
+			    Xoffset = 5;			
+			lcd_display(LCD_LINE5 + Xoffset, (void *)temp);
+			
+			if((temp - &str_ip[0]) > 10)
+			    Xoffset = 0;
+			else
+			    Xoffset = 1;
+							 
+			str_ip[(temp - &str_ip[0])] = '\0';
+			lcd_display(LCD_LINE4 + Xoffset , (void *)&str_ip[0]);					
+		}		
     }
 }
 #endif
