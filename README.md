@@ -34,7 +34,7 @@ Quick Start
 2) Download Micrium ports on the RX63N
 * HINT from http://micrium.com/download/Micrium-uCOS-III-TCPIP-USBD-USBH-YRDKRX63N-binaries.zip<br>
 
-3) Extract the Micrium ports to c:\<br>
+3) Extract the Micrium ports to c:\
 
 4) Download the repository as a zip file and extract the file into the path:<br>
    C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW<br>
