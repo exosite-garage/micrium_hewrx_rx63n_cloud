@@ -1,12 +1,12 @@
 ========================================
 About RX63 NMicrium uCOS-III-ExN
 ========================================
-This project contains one Micrium uC/OS-III projects for the Renesas RX63N 
+This project contains one Micrium uC/OS-III project for the Renesas RX63N 
 Renesas Development Kit (RDK) system.  The project includes cloud connectivity
 that does the following things:<br>
 1) Runs a provisioning routine at startup to ensure the kit is authenticated<br>
 2) Writes a "ping" value to the cloud<br>
-3) Reads a "ledctrl" value from the cloud to control on-board LEDs<br>
+3) Reads a "led_ctrl" value from the cloud to control on-board LEDs<br>
 4) Outputs cloud status on the LCD screen<br>
 5) Outputs MAC address & IP address on the LCD after boot<br>
 
@@ -31,12 +31,17 @@ Quick Start
 1) Install C/C++ Compiler Package for RX Family V.1.02 Release 00  
 * HINT from http://www.renesas.com/request?SCREEN_ID=ViewGRSDownloadSearch&EXECUTE_ACTION=search#<br>
 
-2) open HEW and create a new project workspace of RX63N
+2) Download Micrium ports on the RX63N
+* HINT from http://micrium.com/download/Micrium-uCOS-III-TCPIP-USBD-USBH-YRDKRX63N-binaries.zip<br>
 
-3) Copy all files (if not already) into the path:<br>
-* C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW<br>
+3) Extract the Micrium ports to c:\<br>
 
-4) Open workspace "uCOSIII_CLOUD_RX63N.hws"<br>
+4) Download the repository as a zip file and extract the file into the path:<br>
+   C:\Micrium\Software\EvalBoards\Renesas\YRDKRX63N\HEW<br>
+
+5) Rename the extracted folder as "RX63N_EXAMPLE"<br>
+
+6) Open workspace "RX63N_EXAMPLE.hws"<br>
 
 5) Compile and download -> check https://renesas.exosite.com to see your data
 in the cloud!<br>
@@ -48,6 +53,11 @@ in the cloud!<br>
 ========================================
 Release Info
 ========================================
+----------------------------------------
+Release 2012-03-15
+----------------------------------------
+--) Integrate project with new Micrium ports<br>
+
 ----------------------------------------
 Release 2012-02-23
 ----------------------------------------
