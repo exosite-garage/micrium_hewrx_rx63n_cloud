@@ -1,5 +1,5 @@
 ========================================
-About RX63 NMicrium uCOS-III-ExN
+About RX63N Micrium uCOS-III-ExN
 ========================================
 This project contains one Micrium uC/OS-III project for the Renesas RX63N 
 Renesas Development Kit (RDK) system.  The project includes cloud connectivity
